@@ -427,7 +427,7 @@ function App() {
       ) : (
         <>
           <Header>
-            <Title>🎨 Collaborative Whiteboard Pro</Title>
+            <Title>🎨 Collaborative Whiteboard</Title>
             <RoomInfo>
               <InfoBadge>Room: <strong>{currentRoom}</strong></InfoBadge>
               <InfoBadge>Artists: <strong>{userCount}</strong></InfoBadge>
