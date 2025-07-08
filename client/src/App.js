@@ -408,7 +408,7 @@ function App() {
 
       {/* Action Loading Screen */}
       <LoadingScreen show={loading} fadeOut={fadeOut}>
-        <LoadingLogo>WB</LoadingLogo>
+        <LoadingLogo>Creating New Whiteboard Room</LoadingLogo>
         <LoadingSpinner2 />
         <LoadingText>Processing request...</LoadingText>
       </LoadingScreen>
@@ -432,7 +432,7 @@ function App() {
               <InfoBadge>Room: <strong>{currentRoom}</strong></InfoBadge>
               <InfoBadge>Artists: <strong>{userCount}</strong></InfoBadge>
               <ConnectionStatus connected={isConnected}>
-                {isConnected ? '🟢 Live' : '🔴 Offline'}
+                {isConnected ? 'Live' : 'Offline'}
               </ConnectionStatus>
               <LeaveButton onClick={leaveRoom}>
                 ← Leave Room

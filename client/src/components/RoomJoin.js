@@ -362,7 +362,7 @@ function RoomJoin({ onJoinRoom, onCreateRoom, isConnected }) {
   return (
     <Container darkMode={darkMode}>
       <ConnectionStatus connected={isConnected}>
-        {isConnected ? '🟢 Connected' : '🟡 Connecting...'}
+        {isConnected ? 'Connected' : 'Connecting...'}
       </ConnectionStatus>
       
       <ThemeToggle darkMode={darkMode} onClick={toggleTheme} />
